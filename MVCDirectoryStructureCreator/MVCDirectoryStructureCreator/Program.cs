@@ -12,8 +12,8 @@ namespace MVCDirectoryStructureCreator
         static void Main(string[] args)
         {
             string path = Directory.GetCurrentDirectory();
-            if(args[0].IsNullOrEmpty)
-            String projectName = path + "\\" + args[0];
+            
+            String projectName = path + "\\" + "ProjectName";
             String models = "Models";
             String views = "Views";
             String controllers = "Controllers";
